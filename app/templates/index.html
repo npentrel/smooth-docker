@@ -10,26 +10,28 @@
 <body>
   <nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="#" style="color:white">
-      <i class="fa fa-plus-circle" style="color:red"></i> Pokemon - Gotta pick your team!
+      <i class="fa fa-plus-circle" style="color:red"></i> Pokemon - Gotta docker them all!
     </a>
   </nav>
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Your randomly chosen team:</h1>
+      <h1 class="display-4">Your favorite pokemon:</h1>
     </div>
   </div>
 
   <div class="container">
-    <div class="card-deck">
-      {% for r in results %}
-      <div class="card text-white bg-success mb-3" style="width: 18rem;">
-        <img class="card-img-top" src="{{ r.art_url }}" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">#{{ r.pkdx_id }} {{ r.name }}</p>
+    <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <div class="card text-white bg-success mb-3">
+          <img class="card-img-top" src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">#1 Bulbasaur</p>
+          </div>
         </div>
       </div>
-      {% endfor %}
+      <div class="col-sm-3"></div>
     </div>
   </div>
 </body>

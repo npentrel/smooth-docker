@@ -14,7 +14,6 @@ RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
 # copy files required for the app to run
 COPY app.py /usr/src/app/
 ADD templates /usr/src/app/templates/
-ADD static /usr/src/app/static/
 
 # tell the port number the container should expose
 EXPOSE 9000
