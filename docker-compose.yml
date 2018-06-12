@@ -4,6 +4,9 @@ services:
     container_name: app
     restart: always
     build: ./app
+    # uncomment for development 
+    # volumes:
+    #   - ./app:/usr/src/app/
     ports:
       - "9000:9000"
     links:
@@ -22,11 +25,3 @@ services:
     build: ./mongo
     links:
       - database
-
-  # mongo:
-  #   container_name: mongo
-  #   build: ./mongo
-  #   volumes:
-  #     - ./data:/data/db
-  #   ports:
-  #     - "27017:27017"

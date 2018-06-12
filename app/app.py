@@ -16,7 +16,6 @@ def get_5_random_pokemon():
 
 @app.route('/')
 def index():
-  print("here")
   results = get_5_random_pokemon()
   return render_template("index.html", results=results)
 
