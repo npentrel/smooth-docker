@@ -1,12 +1,15 @@
 from flask import Flask, render_template
 from pymongo import MongoClient
 import random
+import os
+import sys
 
-client = MongoClient("mongodb://database:27017")
+client = MongoClient(os.environ['MONGODB_URI'])
 app = Flask(__name__, static_url_path='')
 
 def get_ingredient(id):
-    return client.test.ingredients.find_one({'_id': id})
+    db = os.environ['MONGODB_URI'].split('/')[-1]
+    return client[db].ingredients.find_one({'_id': id})
 
 def get_5_random_ingredients():
     arr = []
@@ -20,4 +23,4 @@ def index():
     return render_template("index.html", results=results)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=9000)
+    app.run(host="0.0.0.0", port=int(sys.argv[1]))
