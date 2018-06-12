@@ -25,9 +25,9 @@
       <div class="col-sm-4"></div>
       <div class="col-sm-4">
         <div class="card text-white bg-success mb-3">
-          <img class="card-img-top" src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Card image cap">
+          <img class="card-img-top" src="{{ pokemon.art_url }}" alt="Card image cap">
           <div class="card-body">
-            <p class="card-text">#1 Bulbasaur</p>
+            <p class="card-text">#{{ pokemon.pkdx_id }} {{ pokemon.name }}</p>
           </div>
         </div>
       </div>
