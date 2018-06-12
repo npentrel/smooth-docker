@@ -1,0 +1,32 @@
+version: "2"
+services:
+  app:
+    container_name: app
+    restart: always
+    build: ./app
+    ports:
+      - "9000:9000"
+    links:
+      - database
+
+  database:
+    container_name: database
+    image: mongo:3.0.2
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"
+
+  mongo_seed:
+    image: mongo_seed
+    build: ./mongo
+    links:
+      - database
+
+  # mongo:
+  #   container_name: mongo
+  #   build: ./mongo
+  #   volumes:
+  #     - ./data:/data/db
+  #   ports:
+  #     - "27017:27017"
