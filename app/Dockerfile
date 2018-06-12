@@ -10,7 +10,7 @@ COPY app.py /usr/src/app/
 ADD templates /usr/src/app/templates/
 
 # tell the port number the container should expose
-EXPOSE 9000
+# EXPOSE 9000
 
 # run the application
-CMD ["python", "/usr/src/app/app.py"]
+CMD python /usr/src/app/app.py $PORT
