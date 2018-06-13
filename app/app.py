@@ -16,8 +16,8 @@ def get_5_random_pokemon():
 
 @app.route('/')
 def index():
-  results = get_5_random_pokemon()
-  return render_template("index.html", results=results)
+    results = get_5_random_pokemon()
+    return render_template("index.html", results=results)
 
 if __name__ == "__main__":
-  app.run(host="0.0.0.0", port=9000)
+    app.run(host="0.0.0.0", port=9000)
