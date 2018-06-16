@@ -1,6 +1,7 @@
-## Example app showing docker usage
+## Example app for docker updated for use with heroku
 
 ```bash
-docker build -t npentrel/docker-them-all-v1
-docker run --name static-site -d -p 8888:9000 npentrel/docker-them-all-v1
+heroku container:push web --app docker-them-all-v1
+heroku container:release web --app docker-them-all-v1
+heroku open --app docker-them-all-v1
 ```
