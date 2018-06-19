@@ -4,9 +4,10 @@ app = Flask(__name__, static_url_path='')
 
 ## Feel free to change this!
 smoothie = {
-    'pkdx_id': 1,
-    'name': 'Mixed-Berry',
-    'img': 'https://www.maxpixel.net/static/photo/2x/Glass-Healthy-Smoothie-Milkshake-Mixed-Berry-2523597.jpg'
+    '_id': 1,
+    'name': 'Layered Rainbow Smoothies',
+    'img': 'http://www.bestofvegan.com/wp-content/uploads/2017/05/layered-rainbow-smoothies-by-@artrawpaulina-1st-layer-banana-mango-spirulina-2nd-layer-banana-mango-.jpg',
+    'source': 'http://www.bestofvegan.com/vegan-recipe-285/'
 }
 
 @app.route('/')
