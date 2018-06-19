@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 1,
+    "name": "Strawberries",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Strawberries.jpg/320px-Strawberries.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Strawberries.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "Raspberries",
+    "img": "https://www.publicdomainpictures.net/pictures/210000/velka/fresh-raspberries.jpg",
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=207401&picture=fresh-raspberries"
+  },
+  {
+    "_id": 3,
+    "name": "Blueberries",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Bunch_of_blueberries.jpg/320px-Bunch_of_blueberries.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bunch_of_blueberries.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "Mango",
+    "img": "https://www.publicdomainpictures.net/pictures/30000/velka/mango.jpg",
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=26594&picture=mango"
+  },
+  {
+    "_id": 5,
+    "name": "Beetroot",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Beta_vulgaris%2C_San_Francisco_farmers_market.jpg/2560px-Beta_vulgaris%2C_San_Francisco_farmers_market.jpg",
+    "source": "https://commons.wikimedia.org/wiki/Category:Beetroot#/media/File:Beta_vulgaris,_San_Francisco_farmers_market.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "Spinach",
+    "img": "https://www.publicdomainpictures.net/pictures/170000/velka/spinach-leaves-1461774375kTU.jpg",
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=163436&picture=spinach-leaves"
+  },
+  {
+    "_id": 7,
+    "name": "Kale",
+    "img": "https://www.publicdomainpictures.net/pictures/250000/velka/bunch-of-kale.jpg",
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=248797&picture=bunch-of-kale"
+  },
+  {
+    "_id": 8,
+    "name": "Coconut Water",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Coconuts_drying_before_being_processed_into_copra%2C_Polomuhu_village%2C_Central_Province%2C_Solomon_Islands_2004._Photo-_Peter_Davis_-_AusAID_%2810687170956%29.jpg/1599px-Coconuts_drying_before_being_processed_into_copra%2C_Polomuhu_village%2C_Central_Province%2C_Solomon_Islands_2004._Photo-_Peter_Davis_-_AusAID_%2810687170956%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coconuts_drying_before_being_processed_into_copra,_Polomuhu_village,_Central_Province,_Solomon_Islands_2004._Photo-_Peter_Davis_-_AusAID_(10687170956).jpg"
+  },
+  {
+    "_id": 9,
+    "name": "Oat",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nahrungsmittel_2012-07-08-9502.jpg/320px-Nahrungsmittel_2012-07-08-9502.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nahrungsmittel_2012-07-08-9502.jpg"
+  },
+  {
+    "_id": 10,
+    "name": "Apricot",
+    "img": "https://www.maxpixel.net/static/photo/2x/Apricot-tree-Fruit-Apricots-2382872.jpg",
+    "source": "https://www.maxpixel.net/Apricot-tree-Fruit-Apricots-2382872"
+  },
+  {
+    "_id": 11,
+    "name": "Pineapple",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Pineapples_for_sale_in_Bolgatanga%2C_Upper_East_Region%2C_Ghana.JPG/800px-Pineapples_for_sale_in_Bolgatanga%2C_Upper_East_Region%2C_Ghana.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Pineapples_for_sale_in_Bolgatanga,_Upper_East_Region,_Ghana.JPG"
+  },
+  {
+    "_id": 12,
+    "name": "Cucumber",
+    "img": "https://c.pxhere.com/photos/72/6b/cucumber_vegetable_food-502688.jpg!d",
+    "source": "https://pxhere.com/en/photo/502688"
+  },
+  {
+    "_id": 13,
+    "name": "Grapes",
+    "img": "https://www.publicdomainpictures.net/pictures/240000/velka/red-grapes-1512284208Yy0.jpg",
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=236930&picture=red-grapes"
+  },
+  {
+    "_id": 14,
+    "name": "Pomegranate",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Pomegranate_seeds.png/800px-Pomegranate_seeds.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Pomegranate_seeds.png"
+  },
+  {
+    "_id": 15,
+    "name": "Banana",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bananas.jpg/1600px-Bananas.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bananas.jpg"
+  },
+  {
+    "_id": 16,
+    "name": "Avocado",
+    "img": "https://www.maxpixel.net/static/photo/2x/Hass-Avocado-Fruit-Picked-Harvest-Avocados-Green-2972616.jpg",
+    "source": "https://www.maxpixel.net/Hass-Avocado-Fruit-Picked-Harvest-Avocados-Green-2972616"
+  },
+  {
+    "_id": 17,
+    "name": "Ginger",
+    "img": "https://www.publicdomainpictures.net/pictures/40000/velka/ginger-root.jpg",
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=30346&picture=ginger-root"
+  },
+  {
+    "_id": 18,
+    "name": "Kiwi",
+    "img": "https://www.goodfreephotos.com/cache/food/sliced-and-open-kiwi-fruit.jpg",
+    "source": "https://www.goodfreephotos.com/food/sliced-and-open-kiwi-fruit.jpg.php"
+  },
+  {
+    "_id": 19,
+    "name": "Limes",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Limes.jpg/1600px-Limes.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Limes.jpg"
+  },
+  {
+    "_id": 20,
+    "name": "Apples",
+    "img": "https://www.publicdomainpictures.net/pictures/100000/velka/apples-in-the-supermarket.jpg",
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=99877&picture=apples-in-the-supermarket"
+  }
+]

@@ -5,18 +5,18 @@ import random
 client = MongoClient("mongodb://database:27017")
 app = Flask(__name__, static_url_path='')
 
-def get_pokemon(id):
-    return client.test.pokemon.find_one({'pkdx_id': id})
+def get_ingredient(id):
+    return client.test.ingredients.find_one({'_id': id})
 
-def get_5_random_pokemon():
+def get_5_random_ingredients():
     arr = []
     for i in range(5):
-        arr.append(get_pokemon(random.randint(1,151)))
+        arr.append(get_ingredient(random.randint(1,20)))
     return arr
 
 @app.route('/')
 def index():
-    results = get_5_random_pokemon()
+    results = get_5_random_ingredients()
     return render_template("index.html", results=results)
 
 if __name__ == "__main__":
