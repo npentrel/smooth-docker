@@ -10,10 +10,8 @@ services:
       - "9000:9000"
 
   database:
-    image: mongo:3.6.5
+    image: mongo_with_seed_data
+    build: ./mongo
     volumes:
       - ./data:/data/db
 
-  mongo_seed:
-    image: mongo_seed
-    build: ./mongo
