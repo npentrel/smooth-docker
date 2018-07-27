@@ -1,4 +1,4 @@
-version: "3"
+version: "3.5"
 services:
   app:
     restart: always
@@ -8,10 +8,17 @@ services:
     #   - ./app:/usr/src/app/
     ports:
       - "9000:9000"
+    networks:
+      - backend
 
   database:
-    image: mongo_with_seed_data
+    image: mongo_database
     build: ./mongo
     volumes:
       - ./data:/data/db
+    networks:
+      - backend
 
+networks:
+  backend:
+    driver: bridge
